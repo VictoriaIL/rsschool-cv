@@ -2,7 +2,7 @@
 # Victoria Ilyina
 **My Contact Info**
 * Address: Minsk, Belarus
-* [E-mail](victorijailyina@gmail.com)
+* [E-mail](mailto:victorijailyina@gmail.com)
 * [Telegram](https://t.me/ilyinchik_00)
 * [GitHub](https://github.com/VictoriaIL)
 
