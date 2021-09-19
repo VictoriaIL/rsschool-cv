@@ -22,15 +22,20 @@ can work in a team. At the moment, I am very interested in front-end development
 
 ## Projects
 **WildLife**  
-https://victoriail.github.io/WildLife/
+https://victoriail.github.io/WildLife/  
 **Logic game**  
 https://victoriail.github.io/Game-Viselitsa/
 
 
 ## Code examples
 **Task: Return the highest and lowest number.**
-```function highAndLow(numbers){  
+```
+function highAndLow(numbers){ 
+
+ 
 let arr = numbers.split(' ').sort(( a, b ) => a - b);  
+
+
 return [arr[arr.length-1], arr[0]].join(' ')  
 }
 ```
