@@ -1,0 +1,608 @@
+body, html {
+    width: auto;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+html {
+    -ms-overflow-style: none;
+}
+
+body {
+    background-color: #d4d4d4;
+}
+
+footer, header {
+    background-color: #7f76e3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 60px;
+    color: #FFDC73;
+    font-weight: bold;
+}
+
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1000px;
+    background-color: #E5E5E5;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 20px rgb(127, 118, 227);
+}
+
+.photo {
+    margin: 0 auto;
+    width: 240px;
+    height: 220px;
+}
+
+article {
+    margin: 10px 0;
+}
+
+aside {
+    width: 40%;
+    background-color: #7f76e3;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.general-info {
+    width: 60%;
+    padding: 30px 60px;
+}
+
+.aside-information {
+    padding-left: 40px;
+}
+
+.person-name-aside {
+    display: none;
+}
+
+.h1-aside, .h2-aside {
+    color: white;
+}
+
+footer {
+    flex: 1 1 auto;
+}
+
+.about-me, .education, .code-example {
+    margin: 30px 0;
+}
+
+.contacts, .sectionLanguages, .soft-skills, .tech-skills {
+    color: #ffffff;
+    margin: 30px 0;
+}
+
+.section-name-aside {
+    width: fit-content;
+    color: #5149bc;
+    background-color: #FFDC73;
+    padding: 2px;
+    font-weight: bold;
+    font-size: 20px;
+    scroll-behavior: smooth;
+}
+
+.section-name-general-info {
+    width: 100%;
+    color: #FFDC73;
+    background-color: #5149BC;
+    padding: 2px;
+    font-weight: bold;
+    font-size: 20px;
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 15px 0;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+
+.person-name-aside {
+    margin-bottom: 40px;
+}
+
+
+a, .e-mail {
+    text-decoration: none;
+    color: #FFDC73;
+    font-weight: bold;
+    font-size: 16px;
+    transition-duration: 0.5s;
+}
+
+a:hover, .e-mail:hover {
+    color: #ffffff;
+    transition-duration: 0.3s;
+}
+
+.section-element {
+    color: #353077;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+li {
+    padding: 5px 0;
+    list-style-type: none;
+}
+
+li:before {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: #FFDC73;
+    content: "";
+    padding-right: 7px;
+}
+
+.sectionElementName {
+    font-weight: bold;
+}
+
+.title {
+    width: fit-content;
+    font-weight: bold;
+    padding: 2px;
+    background-color: #FFDC73;
+}
+
+.subtitle {
+    font-weight: bold;
+}
+
+.dark-row {
+    background-color: #d4d4d4;
+    padding: 10px;
+}
+
+.light-row {
+    padding: 10px;
+}
+
+.remove-margin-top {
+    margin-top: 0;
+}
+
+.remove-margin-bottom {
+    margin-bottom: 0;
+}
+
+.projects-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.show-button {
+    background-color: #FFDC73;
+    color: #7f76e3;
+    padding: 2px 7px;
+    margin-bottom: 10px;
+}
+
+.show-button:hover {
+    background-color: #7f76e3;
+    color: #FFDC73;
+    transition-duration: 0.5s;
+}
+
+.project-description {
+    font-size: 16px;
+}
+
+.project-picture {
+    max-width: 230px;
+    max-height: 130px;
+}
+
+.hobbies-list {
+    display: flex;
+    justify-content: space-between;
+    color: #7f76e3;
+}
+
+.img-hobbies {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color: #FFDC73;
+}
+
+.hobbies-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    padding: 0;
+}
+
+img {
+    background-color: #7f76e3;
+    color: #7f76e3;
+    margin: 2px;
+}
+
+.item-contact {
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+    list-style-type: none;
+    color: #FFDC73;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.item-contact:before {
+    content: "";
+}
+
+.link-github {
+    text-decoration: underline;
+}
+
+.img-logo {
+    width: 80px;
+}
+
+pre {
+    white-space: pre-line;
+}
+
+nav {
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item-menu-link {
+    position: relative;
+    width: fit-content;
+}
+
+.item-menu-link:hover {
+    transition-duration: 0.5s;
+}
+
+.item-menu-link:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0;
+    content: '';
+    background: #cccccc;
+    height: 2px;
+    transition-duration: 0.5s;
+}
+
+.item-menu-link:hover:after {
+    width: 100%;
+    transition-duration: 0.5s;
+}
+
+.item-menu-link:before {
+    content: "";
+}
+
+@media (max-width: 1199px) {
+    .wrapper {
+        width: 900px;
+    }
+}
+
+@media (max-width: 991px) {
+    .wrapper {
+        width: 690px;
+    }
+
+    .item-menu-link {
+        font-size: 14px;
+        white-space: nowrap;
+    }
+
+    .section-name-aside, .section-name-general-info {
+        font-size: 18px;
+    }
+
+    .section-element {
+        font-size: 16px;
+    }
+
+    .item-contact {
+        font-size: 14px;
+    }
+
+    .general-info {
+        padding: 5px 30px;
+    }
+
+    .aside-information {
+        padding: 0 30px;
+    }
+
+    .project-description {
+        font-size: 15px;
+    }
+
+    .photo {
+        width: 220px;
+        height: 200px;
+    }
+
+    .project-picture {
+        max-width: 155px;
+        max-height: 87px;
+    }
+
+    .hobbies-list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .hobbies-item {
+        margin: 5px 0;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 767px) {
+    .wrapper {
+        width: 630px;
+    }
+
+    .section-name-aside, .section-name-general-info {
+        font-size: 16px;
+    }
+
+    header {
+        padding: 0 30px;
+    }
+
+    body, html {
+        font-size: 15px;
+    }
+
+    .project-description {
+        font-size: 14px;
+    }
+
+    .section-element {
+        font-size: 16px;
+    }
+
+    .item-contact {
+        font-size: 13px;
+    }
+
+    h1 {
+        font-size: 42px;
+        margin: 15px 0;
+    }
+
+    h2 {
+        font-size: 18px;
+        font-weight: lighter;
+    }
+
+    .project-picture {
+        max-width: 226px;
+        max-height: 123px;
+    }
+
+    .photo {
+        width: 200px;
+        height: 180px;
+    }
+
+    .projects-item {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project-description {
+        width: 100%;
+        font-size: 14px;
+        margin: 10px 0;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .trigger {
+        display: inline-block;
+        cursor: pointer;
+        margin-top: 20px;
+    }
+
+    .trigger i {
+        display: block;
+        width: 30px;
+        height: 5px;
+        margin: 4px auto;
+        background: #FFDC73;
+    }
+
+    .show {
+        display: block;
+    }
+
+    .item-menu {
+        font-size: 16px;
+        margin: 20px 0;
+
+    }
+}
+
+@media (max-width: 639px) {
+    .wrapper {
+        width: 460px;
+    }
+
+    .section-name-aside, .section-name-general-info {
+        font-size: 18px;
+    }
+
+    body, html {
+        font-size: 16px;
+    }
+
+    .person-name-aside {
+        display: block;
+    }
+
+    .person-name-general-info {
+        display: none;
+    }
+
+    .project-description {
+        font-size: 15px;
+        margin: 10px 0;
+    }
+
+    .section-element {
+        font-size: 18px;
+    }
+
+    .item-contact {
+        font-size: 16px;
+    }
+
+    h2 {
+        font-size: 16px;
+        font-weight: lighter;
+    }
+
+    .photo {
+        width: 220px;
+        height: 200px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+    }
+
+    aside {
+        width: auto;
+        box-shadow: 0 0 20px rgb(127, 118, 227);
+    }
+
+    .general-info {
+        width: auto;
+
+    }
+
+}
+
+@media (max-width: 479px) {
+    .wrapper {
+        width: auto;
+    }
+
+    .section-name-aside, .section-name-general-info {
+        font-size: 16px;
+    }
+
+    .person-name-aside {
+        display: block;
+    }
+
+    .person-name-general-info {
+        display: none;
+    }
+
+    body, html {
+        font-size: 16px;
+    }
+
+    .project-description {
+        font-size: 16px;
+        margin: 10px 0;
+    }
+
+    .section-element, .item-contact {
+        font-size: 15px;
+    }
+
+
+    h2 {
+        font-size: 16px;
+        font-weight: lighter;
+    }
+
+    .photo {
+        width: 220px;
+        height: 200px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+    }
+
+    aside {
+        width: auto;
+
+    }
+
+    footer {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 320px) {
+    .person-name-aside {
+        display: block;
+    }
+
+    .person-name-general-info {
+        display: none;
+    }
+
+    .wrapper {
+        width: available;
+    }
+
+    footer {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
