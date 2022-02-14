@@ -315,6 +315,11 @@ nav {
     content: "";
 }
 
+.text{
+    font-size: 13px;
+    font-weight: bold;
+}
+
 @media (max-width: 1199px) {
     .wrapper {
         width: 900px;
