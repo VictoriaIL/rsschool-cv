@@ -320,6 +320,10 @@ nav {
     font-weight: bold;
 }
 
+.cv-in-pdf{
+    color: #5149bc;
+    text-decoration: underline;
+}
 @media (max-width: 1199px) {
     .wrapper {
         width: 900px;
