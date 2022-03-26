@@ -319,7 +319,23 @@ nav {
     font-size: 13px;
     font-weight: bold;
 }
-
+.cert-img{
+    max-width: 200px;
+}
+.cert-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+}
+.cert-link{
+    color: #262626;
+    text-decoration: underline;
+    background-color: #FFDC73;
+}
+.cert-link:hover{
+    color: #7f76e3;
+}
 .cv-in-pdf{
     color: #5149bc;
     text-decoration: underline;
