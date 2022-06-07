@@ -329,7 +329,10 @@ nav {
     padding: 10px 0;
 }
 .cert-link{
+    display: inline-block;
+    margin: 10px 0;
     color: #262626;
+    font-size: 18px;
     text-decoration: underline;
     background-color: #FFDC73;
 }
